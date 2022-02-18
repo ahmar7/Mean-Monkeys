@@ -1,0 +1,45 @@
+body{
+    background-image: url(../../assets/images/gradiant\ 1.jpg);
+ 
+    background-repeat: no-repeat;
+    background-size:cover;
+
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+.left-align img{
+    width: 100px;
+    margin-left: 10px;
+    margin-top: 8px;
+}
+.right-align{
+    margin-right: 20px !important;
+}
+.social-ul{
+    
+    display: flex;
+    flex-direction: row;
+}
+.social-ul li{
+   list-style: none;
+  padding-left: 10px;
+  padding-right: 10px;
+
+}
+.social-ul li img{
+   width: 50px;
+}
+.insta {
+    width: 44px !important;
+}
+@media (max-width:780px) {
+ body{
+    background-image: url(../../assets/images/gradiant\ 1.jpg);
+ 
+    background-repeat:repeat-y;
+    background-size:100%;
+
+}   
+}
